@@ -4,7 +4,7 @@ import { Utensils } from "../assets/icons";
 const Categories = () => {
   return (
     <div>
-      <hr className="py-6" />
+      <hr className="py-6 mt-14" />
       <div>
         <h1 className="font-poppins text-3xl font-bold text-center">
           Categories
@@ -30,6 +30,30 @@ const Categories = () => {
           </div>
         </div>
         <div className="   card">
+          <div className="flex flex-col items-center">
+            <Utensils className="w-8 h-8" />
+            <h2>Restaurants</h2>
+          </div>
+        </div>
+        <div className=" card">
+          <div className="flex flex-col items-center">
+            <Utensils className="w-8 h-8" />
+            <h2>Restaurants</h2>
+          </div>
+        </div>
+        <div className=" card">
+          <div className="flex flex-col items-center">
+            <Utensils className="w-8 h-8" />
+            <h2>Restaurants</h2>
+          </div>
+        </div>
+        <div className=" card">
+          <div className="flex flex-col items-center">
+            <Utensils className="w-8 h-8" />
+            <h2>Restaurants</h2>
+          </div>
+        </div>
+        <div className=" card">
           <div className="flex flex-col items-center">
             <Utensils className="w-8 h-8" />
             <h2>Restaurants</h2>
