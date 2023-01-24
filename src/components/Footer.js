@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="flex-1">
             <h1 className="mb-3 text-lg font-bold font-poppins">Discover</h1>
             <div className="flex flex-col gap-1">
-            <ul className="flex flex-col gap-1">
+              <ul className="flex flex-col gap-1">
                 {data.map((data) => {
                   return <Link to="">{data.name}</Link>;
                 })}
@@ -33,7 +33,7 @@ const Footer = () => {
               Yelp for Business
             </h1>
             <div className="flex flex-col gap-1">
-            <ul className="flex flex-col gap-1">
+              <ul className="flex flex-col gap-1">
                 {data.map((data) => {
                   return <Link to="">{data.name}</Link>;
                 })}
@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="flex-1">
             <h1 className="mb-3 text-lg font-bold font-poppins">Languages</h1>
             <div className="flex flex-col gap-1">
-            <ul className="flex flex-col gap-1">
+              <ul className="flex flex-col gap-1">
                 {data.map((data) => {
                   return <Link to="">{data.name}</Link>;
                 })}
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-sm">
+        <p className="text-sm pt-16">
           Copyright © 2004–2022 Yelp Inc. Yelp, Yelp logo, Yelp burst and
           related marks are registered trademarks of Yelp.
         </p>
